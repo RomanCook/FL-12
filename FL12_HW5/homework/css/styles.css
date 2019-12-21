@@ -1,0 +1,143 @@
+@media screen and (max-width: 1400px) {
+  body {
+    font-family: roboto;
+    background-color: #0b192f;
+    color: #fff;
+  }
+  .post-1 {
+    background: #9d27b0;
+    padding: 3%;
+    flex-wrap: wrap;
+  }
+  .post-2 {
+    background: #9bb800;
+    padding: 3%;
+  }
+  .post-3 {
+    background: #ed5120;
+    padding: 3%;
+  }
+  .post-4 {
+    background: #9d27b0;
+    padding: 3%;
+  }
+  .post-5 {
+    background: #2d95bb;
+    width: 98%;
+  }
+  h6 {
+    display: none;
+  }
+  #header {
+    display: flex;
+    background-color: #024161;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 2%;
+  }
+  #header-nav {
+    display: inline-block;
+  }
+  h2 span {
+    color:#B71757;
+  }
+  ul {
+    padding: 0;
+    width: 300px;
+  }
+  li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 2% 0 2%;
+  }
+  #column {
+    display: flex;
+    flex-direction: row;
+  }
+  #main {
+    background-image: url(../img/post0.jpg);
+  }
+  #main h2 {
+    padding: 10% 0 0 2%;
+    margin-top: 20px;
+    font-size: 3em;
+  }
+  #main p {
+    padding: 0 30% 5% 2%;
+  }
+  img {
+    width: 100%;
+  }
+  .post {
+    display: flex;
+    width: 98%;
+  }
+  .w-52 {
+    width: 52%;
+  }
+  .post-1 h2, .post-5 h2 {
+    font-size: 2em;
+    margin-top: 0;
+  }
+  .post-1 h2, .lorem {
+    width: 90%;
+  }
+  .day {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .aside {
+    background-color: #fff;
+  }
+  #aside {
+    width: 98%;
+    color: #1f52a4;
+  }
+  #aside h2, p {
+    padding: 5%;
+  }
+  #footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #024161;
+    margin: 0 auto;
+    padding: 2%;
+  }
+  li:hover {
+    background-color: #1f52a4;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #header-nav {
+    display: none;
+  }
+  #logo{
+    margin: 0 auto;
+  }
+  .post, #aside, .post-5 {
+    flex-direction: column;
+    width: 98%;
+  }
+  .w-52 {
+    width: 100%;
+  }
+  .post-5 .day {
+    align-items: center;
+  }
+  #footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  #column {
+    flex-direction: column;
+  }
+}
