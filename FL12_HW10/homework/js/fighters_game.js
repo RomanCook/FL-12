@@ -59,12 +59,3 @@ class Fighter {
       };
   }
 }
-//let fighter1 = new Fighter('John', 20, 25, 100);
-//let fighter2 = new Fighter('Jack', 10, 40, 100);
-//console.log(fighter1);
-//fighter1.getDamage();
-//fighter1.getAgility();
-//fighter1.getName();
-//fighter1.attack(fighter2);
-//fighter1.logCombatHistory();
-//fighter2.logCombatHistory();
